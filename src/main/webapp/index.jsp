@@ -10,10 +10,18 @@ pageEncoding="ISO-8859-1"%>
 <body>
  
 	<center>
-		<h2>Hello World</h2>
-		<h3>
-			<a href="hello?name=BubbleBee">Click Here :) :P</a>
-		</h3>
+		<h2>Hello Calculate</h2>
+		<form action="hello" method="get">
+			First Integer : <input type="text" name="fint"><BR>
+			Second Integer : <input type="text" name="sint"><BR>
+			<input type="submit" name="submit" value="Plus">
+			<input type="submit" name="submit" value="Minus">
+			<input type="submit" name="submit" value="Multiply">
+			<input type="submit" name="submit" value="Divide">	
+		</form>
+	
+		<!-- <h3><a href="hello?name=Plus Operation">+</a></h3> -->
+	
 	</center>
 </body>
 </html>

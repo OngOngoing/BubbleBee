@@ -7,10 +7,28 @@
 </head>
 <body>
 	<center>
-		<h2>Hello World</h2>
+		<h2>Hello Calculate</h2>
+		<% 
+		String fint = request.getParameter("fint");
+		String sint = request.getParameter("sint");
+		String submit = request.getParameter("submit");
+		double f = Double.parseDouble(fint);
+		double s = Double.parseDouble(sint);
+		double res;
+		if (submit.equals("Plus")){
+			res = f+s;
+		} else if (submit.equals("Minus")){
+			res = f-s;
+		} else if (submit.equals("Multiply")){
+			res = f*s;
+		} else {
+			res = f/s;
+		}
+		%>
 		<h2>
-			${message} ${name}
+			${message} <% out.print(submit); %> ${name}
 		</h2>
+		<h1><% out.println(res); %></h1>
 	</center>
 </body>
 </html>
