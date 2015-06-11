@@ -7,28 +7,36 @@
 </head>
 <body>
 	<center>
-		<h2>Hello Calculate</h2>
-		<% 
-		String fint = request.getParameter("fint");
-		String sint = request.getParameter("sint");
-		String submit = request.getParameter("submit");
-		double f = Double.parseDouble(fint);
-		double s = Double.parseDouble(sint);
-		double res;
-		if (submit.equals("Plus")){
-			res = f+s;
-		} else if (submit.equals("Minus")){
-			res = f-s;
-		} else if (submit.equals("Multiply")){
-			res = f*s;
-		} else {
-			res = f/s;
-		}
-		%>
+		<h2>Hello World</h2>
 		<h2>
-			${message} <% out.print(submit); %> ${name}
+			<%
+				double num1 = Double.parseDouble(request.getParameter("num1"));
+				double num2 = Double.parseDouble(request.getParameter("num2"));
+				String op = request.getParameter("operator");
+				
+				double ans=0;
+				out.print(num1+" ");
+				out.print(op+" ");
+				out.println(num2);
+				
+				if(op.equals("+")) {
+					ans = num1+num2;
+				}
+				else if(op.equals("-")) {
+					ans = num1 - num2;
+				}
+				else if(op.equals("*")) {
+					ans = num1 * num2;
+				}
+				else if(op.equals("/")) {
+					ans = num1/num2;
+				}
+				out.print("= ");
+			%>
+			<span id ="ans"><%=ans%></span>
+			<div><a href="">Back</a></div>
+			
 		</h2>
-		<h1><% out.println(res); %></h1>
 	</center>
 </body>
 </html>
