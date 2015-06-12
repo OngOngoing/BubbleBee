@@ -1,10 +1,12 @@
-package com.bubblebee.webapp.controller;
+
 
 import static org.junit.Assert.*;
 import junit.framework.Assert;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.bubblebee.webapp.controller.HelloWorldController;
 
 public class testCal {
 	
