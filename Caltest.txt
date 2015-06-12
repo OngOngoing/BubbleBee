@@ -1,0 +1,46 @@
+*** Settings ***
+Library           Selenium2Library
+Resource          samplelibrary.txt
+
+*** Test Cases ***
+testCal
+    Open Browser    http://localhost:8080/Cal    ff
+    Set Selenium Speed    0.25
+    Element Should Be Visible    //input[@name='fint']
+    Input Text    //input[@name='fint']    5
+    Element Should Be Visible    //input[@name='sint']
+    Input Text    //input[@name='sint']    4
+    Element Should Be Visible    //input[@value='Plus']
+    Click Element    //input[@value='Plus']
+    ${text}=    Get Text    //h1[@name='result']
+    Should Contain    ${text}    9.0
+    Click Link    //a[@name='back_link']
+    Element Should Be Visible    //input[@name='fint']
+    Input Text    //input[@name='fint']    5
+    Element Should Be Visible    //input[@name='sint']
+    Input Text    //input[@name='sint']    4
+    Element Should Be Visible    //input[@value='Minus']
+    Click Element    //input[@value='Minus']
+    ${text}=    Get Text    //h1[@name='result']
+    Should Contain    ${text}    1.0
+    Click Link    //a[@name='back_link']
+    Element Should Be Visible    //input[@name='fint']
+    Input Text    //input[@name='fint']    5
+    Element Should Be Visible    //input[@name='sint']
+    Input Text    //input[@name='sint']    4
+    Element Should Be Visible    //input[@value='Multiply']
+    Click Element    //input[@value='Multiply']
+    ${text}=    Get Text    //h1[@name='result']
+    Should Contain    ${text}    20.0
+    Click Link    //a[@name='back_link']
+    Element Should Be Visible    //input[@name='fint']
+    Input Text    //input[@name='fint']    5
+    Element Should Be Visible    //input[@name='sint']
+    Input Text    //input[@name='sint']    4
+    Element Should Be Visible    //input[@value='Divide']
+    Click Element    //input[@value='Divide']
+    ${text}=    Get Text    //h1[@name='result']
+    Should Contain    ${text}    1.25
+    Click Link    //a[@name='back_link']
+    Sleep    10
+    Close Browser

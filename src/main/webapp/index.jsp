@@ -8,16 +8,20 @@ pageEncoding="ISO-8859-1"%>
 <title>Spring 4 MVC - HelloWorld Index Page</title>
 </head>
 <body>
-      <form action="hello">
-        enter first number <input name="num1" type="text"/>
-  		<select name="operator">
-      		<option value="+"> + </option>
-      		<option value="-"> - </option>
-      		<option value="*"> * </option>
-      		<option value="/"> / </option>
-  		</select>
-  		enter second number <input name="num2" type="text"/>
-  		<button type="submit"> Calculate </button>
-     </form>
+ 
+	<center>
+		<h2>Hello Calculate</h2>
+		<form action="hello" method="get">
+			First Integer : <input type="text" name="fint"><BR>
+			Second Integer : <input type="text" name="sint"><BR>
+			<input type="submit" name="submit" value="Plus">
+			<input type="submit" name="submit" value="Minus">
+			<input type="submit" name="submit" value="Multiply">
+			<input type="submit" name="submit" value="Divide">	
+		</form>
+	
+		<!-- <h3><a href="hello?name=Plus Operation">+</a></h3> -->
+	
+	</center>
 </body>
 </html>
