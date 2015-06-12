@@ -18,6 +18,16 @@ public class testCal {
 //	}
 	
 	@Test
+	public void testShowMessage(){
+		
+		Assert.assertNotNull(tester.showMessage("", "5", "4", "Plus"));
+		Assert.assertNotNull(tester.showMessage("", "5", "4", "Minus"));
+		Assert.assertNotNull(tester.showMessage("", "5", "4", "Multiply"));
+		Assert.assertNotNull(tester.showMessage("", "5", "4", "Divide"));
+		
+	}
+	
+	@Test
 	public void testAdd() {
 		
 		Assert.assertTrue(9.0 == tester.plus(5, 4));
