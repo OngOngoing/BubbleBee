@@ -1,6 +1,5 @@
 *** Settings ***
 Library           Selenium2Library
-Resource          samplelibrary.txt
 
 *** Test Cases ***
 testCal
