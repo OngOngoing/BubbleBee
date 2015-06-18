@@ -3,8 +3,7 @@ Library           Selenium2Library
 
 *** Test Cases ***
 testCal
-    Open Browser    http://localhost:8080/Cal    ff
-    Set Selenium Speed    0.25
+    Open Browser    http://54.169.50.145:8080/Cal    phantomjs
     Element Should Be Visible    //input[@name='fint']
     Input Text    //input[@name='fint']    5
     Element Should Be Visible    //input[@name='sint']
@@ -41,5 +40,5 @@ testCal
     ${text}=    Get Text    //h1[@name='result']
     Should Contain    ${text}    1.25
     Click Link    //a[@name='back_link']
-    Sleep    10
+    Sleep    1
     Close Browser
