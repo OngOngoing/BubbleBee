@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import com.bubblebee.webapp.controller.HelloWorldController;
 
-public class testCal {
+public class TestCal {
 	
 	HelloWorldController tester = new HelloWorldController();
 	
