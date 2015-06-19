@@ -10,7 +10,7 @@ pageEncoding="ISO-8859-1"%>
 <body>
  
 	<center>
-		<h2>Hello Calculate :) :P</h2>
+		<h2>Hello Calculate :) :P :X</h2>
 		<form action="hello" method="get">
 			First Integer : <input type="text" name="fint"><BR>
 			Second Integer : <input type="text" name="sint"><BR>
