@@ -19,7 +19,7 @@
 
 4.  Install <code>wget</code> using  
 
-        yum install wge
+        yum install wget
 
 5.  Get jenkins repositories using command  
 
