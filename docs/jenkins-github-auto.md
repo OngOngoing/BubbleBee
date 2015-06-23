@@ -22,7 +22,7 @@
 
     ![](img/github-autohook1.png)
 
-6.  Scroll down and make sure 'Build when a change is pushed to GitHub' option is enabled.
+6.  Scroll down and make sure <code>Build when a change is pushed to GitHub</code> option is enabled.
 
     ![](img/github-autohook2.png)
 
