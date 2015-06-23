@@ -1,3 +1,3 @@
 # BubbleBee
 
-- [Jenkins Installation](jenkins-installation.md)
+- [Jenkins Installation](docs/jenkins-installation.md)
