@@ -1,6 +1,7 @@
 #Jenkins Installation for Linux
 
 ![](http://jenkins-ci.org/sites/default/files/jenkins_logo.png)
+( Source : http://sanketdangi.com/post/62715793234/install-configure-jenkins-on-amazon-linux )
 
 ##Prerequisite
   * Security port 8080 enabled
