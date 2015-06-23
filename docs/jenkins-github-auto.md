@@ -8,7 +8,7 @@
 
 
 ##Installation steps
-1.  Open your jenkins click <code>Manage Jenkins</code>
+1.  Open your jenkins, click <code>Manage Jenkins</code>
 
 2.  Click <code>Manage Plugins</code>
 
