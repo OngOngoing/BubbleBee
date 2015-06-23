@@ -81,6 +81,12 @@ if not .. try to install again
 
 *  Open your browser and navigate to <code>http://< your-jenkins-ip >:8080</code>. You'll see jenkins dashboard.  
 
+###Create Workspace for Amazon EC2 Plugin
+
+      # cd /usr/..
+      # sudo mkdir hudson
+      # sudo chmod 777 hudson 
+
 ###Create AMI
 * Open Amazon EC2 Console and go to Tab Instances
 * Right click on desire instance
