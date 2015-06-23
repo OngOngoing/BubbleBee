@@ -22,7 +22,7 @@
 5. Go to test item and click `Configure`  
 6. In configure page  
   > Check Restrict where this project can be run
-  > and fill in Label Expression with Slave
+  > and fill in Label Expression with `slave`
   
   ![01](https://github.com/OngOngoing/BubbleBee/blob/master/docs/img/04.jpg)  
   > In Build
