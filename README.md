@@ -1,6 +1,7 @@
 # BubbleBee
 
 - [Launch an Instance](docs/Launch-an-Instance.md)
+- [Oracle JDK8 Installation](docs/jdk-installation.md)
 - [Jenkins Installation](docs/jenkins-installation.md)
 - [Tomcat Installation](docs/Tomcat-Installation.md)
 - [Setup Jenkins slave](docs/Setup-Jenkins-Slave.md)
