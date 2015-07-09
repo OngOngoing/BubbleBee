@@ -14,7 +14,7 @@ Follow this step:
   - Phantomjs  
   
           # sudo yum install npm  
-          # npm install phantomjs 
+          # npm install -g phantomjs 
 
   - Firefox 
   
