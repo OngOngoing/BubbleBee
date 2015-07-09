@@ -5,7 +5,7 @@ Follow this step:
 * Install Robotframework 
   
         # sudo yum install epel-release  
-        # sudo yum install pip  
+        # sudo yum install python-pip  
         # sudo yum install selenium  
         # pip install robotframework 
         # pip install robotframework-Selenium2Library  
