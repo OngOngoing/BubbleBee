@@ -10,9 +10,9 @@
 * Install Java with Alternatives
 
         # sudo chown -R root: jdk1.7.0_71
-        # sudo alternatives --install /usr/bin/java java /opt/jdk1.7.0_71/bin/java 1
-        # sudo alternatives --install /usr/bin/javac javac /opt/jdk1.7.0_71/bin/javac 1
-        # sudo alternatives --install /usr/bin/jar jar /opt/jdk1.7.0_71/bin/jar 1
+        # sudo alternatives --install /usr/bin/java java /opt/jdk1.8.0_45/bin/java 1
+        # sudo alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_45/bin/javac 1
+        # sudo alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_45/bin/jar 1
 * Check Installed Java
 
         # java -version
