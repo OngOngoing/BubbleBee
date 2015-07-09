@@ -20,7 +20,7 @@ Follow this step:
   
           # sudo yum install firefox   
           # sudo yum install tigervnc-server  
-          # vnc-server :1  
+          # vncserver :1  
           # export $DISPLAY=:1  
 
 and then try  
