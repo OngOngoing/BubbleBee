@@ -5,8 +5,8 @@ Follow this step:
 * Install Robotframework 
   
         # sudo yum install epel-release  
-        # sudo yum install pip  
-        # sudo yum install selenium  
+        # sudo yum install python-pip  
+        # pip install selenium  
         # pip install robotframework 
         # pip install robotframework-Selenium2Library  
 
@@ -14,13 +14,13 @@ Follow this step:
   - Phantomjs  
   
           # sudo yum install npm  
-          # npm install phantomjs 
+          # npm install -g phantomjs 
 
   - Firefox 
   
           # sudo yum install firefox   
           # sudo yum install tigervnc-server  
-          # vnc-server :1  
+          # vncserver :1  
           # export $DISPLAY=:1  
 
 and then try  

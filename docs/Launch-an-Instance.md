@@ -19,7 +19,7 @@
 
 <br><br><br>
 ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ    
-<br>TADA ..! you'll see a text box tell you that **Your instances are now launching** with instance ID 
+<br>TADA ..! you'll see a text box tell you that **"Your instances are now launching"** with instance ID 
 <br>Click **View Instance** now you'll see your instance is running
 
 
