@@ -34,4 +34,10 @@ Add a user Deployer as the manager-script
 Save and exit the tomcat-users.xml file
 * Start Tomcat
 
-        # sudo systemctl start tomcat
+        # sudo systemctl start tomcat  
+        
+
+Just incase - if tomcat not start onboot
+
+        # sudo systemctl enable tomcat.service
+        # sudo systemctl start tomcat.service
