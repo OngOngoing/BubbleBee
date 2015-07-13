@@ -9,4 +9,5 @@
 - [Setup Jenkins Plugins](docs/Setup-Jenkins-Plugins.md)
 - [Automatically build when a change is pushed to GitHub](docs/jenkins-github-auto.md)
 - [Jenkins Job Setup](docs/JenkinsJob-Setup.md)
+- [Robot Installation](docs/Robot-Installation.md)
 
