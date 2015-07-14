@@ -1,17 +1,21 @@
 # BubbleBee
-
+- [**Oracle JDK8 Installation**](docs/jdk-installation.md)
 - [Launch an Instance](docs/Launch-an-Instance.md)
-- [Oracle JDK8 Installation](docs/jdk-installation.md)
+- [Tomcat Installation](docs/Tomcat-Installation.md)
+- [Robot Installation](docs/Robot-Installation.md)
+
+
+##Jenkins
 - [Jenkins Installation](docs/jenkins-installation.md)
 - [Jenkins Security Setup](docs/jenkins-security.md)
-- [Tomcat Installation](docs/Tomcat-Installation.md)
-- [Setup Jenkins slave](docs/Setup-Jenkins-Slave.md)
 - [Setup Jenkins Plugins](docs/Setup-Jenkins-Plugins.md)
-- [Automatically build when a change is pushed to GitHub](docs/jenkins-github-auto.md)
+- [Setup Jenkins slave](docs/Setup-Jenkins-Slave.md)
 - [Jenkins Job Setup](docs/JenkinsJob-Setup.md)
-- [Robot Installation](docs/Robot-Installation.md)
+- [Automatically build when a change is pushed to GitHub](docs/jenkins-github-auto.md)
+- [Setup Robot to automatically pull tests from git](docs/auto_pull_test.md)
+
+#####FYI
 - [A Steps to Permanently start Jenkins on different port](docs/jenkins-diff-port.md)
-- [Setup Robot to Auto Pull Tests from Git](docs/auto_pull_test.md)
 
 ##Puppet
 - [Puppet Installation for CentOS7](docs/puppet-install.md)
