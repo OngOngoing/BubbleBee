@@ -14,5 +14,5 @@
 * Go to Manage Jenkins --> Configure System
 * Click Add a new cloud and select Amazon EC2 on a Cloud section
 * Then follow the picture
-![](img/ec2-plugin1.png)
-![](img/ec2-plugin2.png)
+![](imgs/ec2-plugin1.png)
+![](imgs/ec2-plugin2.png)

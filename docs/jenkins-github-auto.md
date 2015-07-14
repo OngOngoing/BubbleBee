@@ -20,15 +20,15 @@
 
 5.  Fill in your <code>GitHub project</code> repository URL.
 
-    ![](img/github-autohook1.png)
+    ![](imgs/github-autohook1.png)
 
 6.  Scroll down and make sure <code>Build when a change is pushed to GitHub</code> option is enabled.
 
-    ![](img/github-autohook2.png)
+    ![](imgs/github-autohook2.png)
 
 7.  Next, navigate to your GitHub repository web page, click on <code>Settings</code> at the right side of the screen.
 
-    ![](img/github-autohook3.png)
+    ![](imgs/github-autohook3.png)
 
 8.  Click on <code>Webhooks & Services</code>, Under <code>Services</code>section, Click on <code>Add Service</code> and choose <code>Jenkins (GitHub plugin)</code>
 
@@ -41,8 +41,8 @@
 
 12. Click on <code>Test Service</code> button and click <kbd>Update Service</kbd>
 
-    ![](img/github-autohook4.png)
+    ![](imgs/github-autohook4.png)
 
 13. If it's working, you should see the green checked icon as shown below.
 
-    ![](img/github-autohook5.png)
+    ![](imgs/github-autohook5.png)
