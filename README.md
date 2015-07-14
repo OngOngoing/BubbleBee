@@ -21,3 +21,6 @@
 - [Puppet Installation for CentOS7](docs/puppet-install.md)
 - [Puppet Agent Installation](docs/puppet-agent-install.md)
 - [Puppet Configuration Guide](docs/puppet-configuration.md)
+
+##Database  
+- [Oracle SQL*Plus Installation](docs/sqlplus-installation.md)
