@@ -25,7 +25,7 @@
 * Configure Tomcat Users
 
         # sudo vi /usr/share/tomcat/conf/tomcat-users.xml
-Add a user Deployer as the manager-script **for Deploy plugin(Jenkins)
+Add a user Deployer as the manager-script              **for Deploy plugin(Jenkins)
 
                                 tomcat-users.xml — Admin User
         <tomcat-users>
