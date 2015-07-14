@@ -49,6 +49,24 @@
   Inside the class construct is an instruction to configure a particular file called `/root/example_file.txt`. The file construct instructs Puppet to ensure that there is a file at that name, that the file is a file and not a directory, that it has the specified ownership, that it has the specified protection mode, and that it has the specified content.
 
 
+##Add Puppet Agent to Module
+(<em>Visit [PuppetLabs Docs](https://docs.puppetlabs.com/pe/latest/console_classes_groups.html) for more information.</em>)
+
+1.  Open Web-Browser and login to your `Puppet-Master Console`.  
+
+2.  Click on `Classification` tab at the top of the screen.![](imgs/pe-config1.jpg)
+
+3.  Specify `Node group name` and other fields as you want, then click <kbd>Add group</kbd>.![](imgs/pe-config2.jpg)
+
+4.  Click on the `Classification Group` you previously added.
+
+5.  Fill in your rules for the puppet agent to be added in this classification. For this tutorial, we'll use node name. Click <kbd>Add rule</kbd>. ![](imgs/pe-config3.jpg)
+
+6.  Click on `Classes` Tab, under `Add new class` section, specify your `Class name` and click <kbd>Add class</kbd>.![](imgs/pe-config4.jpg)
+
+7.  At the bottom if the screen, click on <kbd>Commit 2 changes</kbd> to save you settings.![](imgs/pe-config5.jpg)
+
+8.  Now, your agent node would be ready to be invoked.
 
 ##Puppet Agent - Invoke Puppet
 1.  Now that you have installed Puppet and created a configuration file, you can invoke Puppet by logging into your puppet agent and invoke the following command.
