@@ -25,7 +25,7 @@
 * Configure Tomcat Users
 
         # sudo vi /usr/share/tomcat/conf/tomcat-users.xml
-Add a user Deployer as the manager-script
+Add a user Deployer as the manager-script  ***for Deploy plugin(Jenkins)***
 
                                 tomcat-users.xml — Admin User
         <tomcat-users>
@@ -34,4 +34,10 @@ Add a user Deployer as the manager-script
 Save and exit the tomcat-users.xml file
 * Start Tomcat
 
-        # sudo systemctl start tomcat
+        # sudo systemctl start tomcat  
+        
+
+Just incase - if tomcat not start onboot
+
+        # sudo systemctl enable tomcat.service
+        # sudo systemctl start tomcat.service

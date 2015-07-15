@@ -23,6 +23,14 @@ Follow this step:
           # vncserver :1  
           # export $DISPLAY=:1  
 
+  - Chrome
+  
+          # sudo yum install google-chrome-stable  
+          # npm install chromedriver
+          # vncserver :1  
+          # export $DISPLAY=:1 
+after install chromedriver don't forget to move chromedriver to `/usr/bin/`
+
 and then try  
 
     # pybot --version  

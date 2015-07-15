@@ -40,10 +40,10 @@
 9.  Open your browser and navigate to <code>http://< your-jenkins-ip >:8080</code>. You'll see jenkins dashboard.
 
 10. Next, you'll need to locate the JDK for jenkins, please select `Manage Jenkins`  
-![](img/jenkins-conf1.jpg)
+![](imgs/jenkins-conf1.jpg)
 
 11. On jenkins dashboard and click on `Configure System`.
-![](img/jenkins-conf2.jpg)
+![](imgs/jenkins-conf2.jpg)
 
 12. Scroll down to `JDK` section, Click <kbd>Add JDK</kbd> and fill in the following path.
 
@@ -51,4 +51,4 @@
 /usr/java/
 ```
   Then, click <kbd>Save</kbd>.
-![](img/jenkins-conf3.jpg)
+![](imgs/jenkins-conf3.jpg)
