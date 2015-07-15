@@ -11,7 +11,7 @@ testCal
     Element Should Be Visible    //input[@value='Plus']
     Click Element    //input[@value='Plus']
     ${text}=    Get Text    //h1[@name='result']
-    Should Contain    ${text}    9.0
+    Should Contain    ${text}    8.0
     Click Link    //a[@name='back_link']
     Element Should Be Visible    //input[@name='fint']
     Input Text    //input[@name='fint']    5
