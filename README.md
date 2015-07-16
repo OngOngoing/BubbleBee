@@ -16,6 +16,7 @@
 
 #####FYI
 - [A Steps to Permanently start Jenkins on different port](docs/jenkins-diff-port.md)
+- [Integrating AWS CodeCommit with Jenkins](docs/aws-codecommit.md)
 
 ##Puppet
 - [Puppet Installation for CentOS7](docs/puppet-install.md)
