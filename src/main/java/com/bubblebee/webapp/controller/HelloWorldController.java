@@ -31,7 +31,7 @@ public class HelloWorldController {
 		} else {
 			res = div(f,s);
 		}
-		String result = Double.toString(res);
+		String result = Double.toString(rs);
 		
 		ModelAndView mv = new ModelAndView("helloworld");
 		mv.addObject("message", message);
