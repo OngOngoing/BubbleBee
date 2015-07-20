@@ -3,7 +3,7 @@ Library           Selenium2Library
 
 *** Test Cases ***
 testCal
-    Open Browser    http://54.169.75.9:8080/Cal    phantomjs
+    Openddd Browser    http://54.169.75.9:8080/Cal    phantomjs
     Element Should Be Visible    //input[@name='fint']
     Input Text    //input[@name='fint']    5
     Element Should Be Visible    //input[@name='sint']
