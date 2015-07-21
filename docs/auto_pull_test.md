@@ -1,6 +1,6 @@
 #Setup Git auto pull robot test case
 
-  ###Jenkins Slave Setup  
+###Jenkins Slave Setup  
   1.SSH to slave instance  
   2.put private key file to workspace  
 
