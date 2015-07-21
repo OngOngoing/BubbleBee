@@ -21,7 +21,7 @@ public class HelloWorldController {
 		
 		double f = Double.parseDouble(fint);
 		double s = Double.parseDouble(sint);
-		double rs;
+		double res;
 		if (submit.equals("Plus")){
 			res = plus(f,s);
 		} else if (submit.equals("Minus")){
