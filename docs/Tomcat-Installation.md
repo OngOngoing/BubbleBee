@@ -40,7 +40,8 @@ Save and exit the tomcat-users.xml file
 Just incase - if tomcat not start onboot
 
         # sudo systemctl enable tomcat.service
-        # sudo systemctl start tomcat.service
+        # sudo systemctl start tomcat.service  
+        
 
 
 * For Tomcat 8 follow this link  
