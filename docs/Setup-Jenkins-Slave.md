@@ -30,7 +30,8 @@ Follow this step:
           # npm install chromedriver
           # vncserver :1  
           # export $DISPLAY=:1 
-after install chromedriver don't forget to move chromedriver to `/usr/bin/`
+after install chromedriver don't forget to move chromedriver to `/usr/bin/`  
+if you can't install google-chrome-stable please see this : http://www.tecmint.com/install-google-chrome-on-redhat-centos-fedora-linux/
 
 and then try  
 
