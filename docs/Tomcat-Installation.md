@@ -41,3 +41,7 @@ Just incase - if tomcat not start onboot
 
         # sudo systemctl enable tomcat.service
         # sudo systemctl start tomcat.service
+
+
+* For Tomcat 8 follow this link  
+        http://www.davidghedini.com/pg/entry/install_tomcat_8_on_centos#
