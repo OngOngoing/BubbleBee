@@ -74,7 +74,6 @@ if you can't install google-chrome-stable please see this : http://www.tecmint.c
     # description: vncserver Start Stop Restart
     # processname: vncserver
     # chkconfig: 234 20 80
-    VNCSERVER_HOME=/opt/vncserver
     DISPLAY=:1
     echo DISPLAY=$DISPLAY
     case $1 in
