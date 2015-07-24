@@ -62,57 +62,31 @@ if you can't install google-chrome-stable please see this : http://www.tecmint.c
     DISPLAY=:1
     ```
 
-3.  Add VNCserver as a service by create a file named `vncserver` in `/etc/init.d`
-
-    ```sh
-    cd /etc/init.d
-    vi vncserver
-    ```
-    with the following lines inside.
-    ```sh
-    #!/bin/bash
-    # description: vncserver Start Stop Restart
-    # processname: vncserver
-    # chkconfig: 234 20 80
-    DISPLAY=:1
-    echo DISPLAY=$DISPLAY
-    case $1 in
-      start)
-              sudo -u centos vncserver $DISPLAY
-              echo vncserver is running as $DISPLAY @centos [ START ]  
-      ;;
-      stop)
-              sudo -u centos vncserver -kill $DISPLAY
-              echo vncserver $DISPLAY @centos is terminated [ STOP ]
-      ;;
-      restart)
-              sudo -u centos vncserver -kill $DISPLAY
-              sudo -u centos vncserver $DISPLAY
-              echo vncserver $DISPLAY @centos is restarted [ RESTART ]
-      ;;
-    esac
-    exit 0
-    ```
-    Then save.
-
-4.  Execute the following command sequentially.
+3.  Create a `vncserver:1` service file at `/etc/systemd/system/` using the following command.
 ```sh
-chmod 755 vncserver
-chkconfig --add vncserver
-chkconfig --level 234 vncserver on
+sudo cp /lib/systemd/system/vncserver\@.service /etc/systemd/system/vncserver@:1.service
 ```
 
-5.  Verify it by
+4.  Open your previously created `vncserver@:1.service` file (which is located at `/etc/systemd/system`)
 ```sh
-chkconfig --list vncserver
+cd /etc/systemd/system/
+sudo vi vncserver\@\:1.service
 ```
 
-6.  Now you can run vncserver as a service.
-```sh
-service vncserver start
-```
-as well as `stop`, `restart`.
+5.  Edit all the `<USER>` field to `centos`, then save.  
 
+6.  Run the following command sequentially.
+```sh
+sudo systemctl daemon-reload
+sudo systemctl enable vncserver\@\:1.service
+```
+
+7.  **Restart your machine.**
+
+8.  Verify it by
+```sh
+sudo systemctl status vncserver\@\:1.service
+```
 
 ##Executing ROBOT
 
