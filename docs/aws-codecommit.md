@@ -59,5 +59,5 @@
 
 6.  Restart/Start Jenkins.
   ```sh
-  service restart jenkins
+  service jenkins restart
   ```
