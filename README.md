@@ -25,3 +25,4 @@
 
 ##Database  
 - [Oracle SQL*Plus Installation](docs/sqlplus-installation.md)
+- [Steps to Install cx_Oracle and connect to database](docs/cx_oracle-install.md)
