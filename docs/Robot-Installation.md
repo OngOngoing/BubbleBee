@@ -37,7 +37,7 @@ pip install robotframework-Selenium2Library
   - Chrome
     ```sh
     sudo yum install google-chrome-stable  
-    npm install chromedriver
+    npm install -g chromedriver
     vncserver :1  
     export DISPLAY=:1
     ```
