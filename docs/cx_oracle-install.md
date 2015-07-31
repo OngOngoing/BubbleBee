@@ -27,6 +27,7 @@ But if it yields a missing of `libclntsh.so.10.1` you may need to do the followi
 cd /usr/lib/oracle/11.2/client64/lib
 sudo cp libclntsh.so.11.1 libclntsh.so.10.1
 export LD_LIBRARY_PATH=/usr/lib/oracle/11.2/client64/lib
+export ORACLE_HOME=/usr/lib/oracle/11.2/
 ```
 
 Now, you should be ready to execute the `python -c 'import cx_Oracle'` command.
@@ -38,6 +39,7 @@ sudo vi /etc/environment
 Add the following line and save.
 ```sh
 LD_LIBRARY_PATH=/usr/lib/oracle/11.2/client64/lib
+ORACLE_HOME=/usr/lib/oracle/11.2/
 ```
 Then, restart your machine.
 
